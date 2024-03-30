@@ -1,0 +1,36 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 99999999999;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px 0px 5px 5px gray;
+
+}
+.navbar__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header__logo {
+    width: 100%;
+    max-width: 122px;
+    height: 24.71px;
+}
+
+.navbar__link {
+    color: rgb(57, 65, 73);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
