@@ -1,0 +1,143 @@
+.carieers{
+    padding: 128px 0;
+}
+.carieers__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.carieers__title{
+    color: rgb(29, 52, 68);
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -3%;
+}
+.jobsalary__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jobleft{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.jobright{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.jobtitle{
+    color: rgb(13, 19, 23);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -3%;
+}
+.jobtext{
+    width: 100%;
+    max-width: 640px;
+    color: rgb(91, 91, 91);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0%;
+}
+.careers__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 92px;
+    padding: 64px 74px;
+    border-radius: 20px;
+    background: rgba(193, 228, 255, 0.3);
+}
+.careers__box__list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.careers__box__item{
+    color: rgb(13, 19, 23);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -3%;
+}
+.item__one{
+    color: rgb(245, 138, 7);
+}
+.careers__box__text{
+    width: 100%;
+    max-width: 842px;
+    color: rgb(91, 91, 91);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0%;
+}
+.careers__form__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+.box__title{
+    color: rgb(13, 19, 23);
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: -3%;
+}
+.careers__form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.form__input{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 17px 0px 17px 32px;
+    border-radius: 30px;
+    background-color: rgba(210, 218, 237, 0.17);
+}
+input::placeholder{
+    color: rgb(156, 156, 156);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0%;
+}
+textarea{
+    border: none;
+    padding: 19px 0px 0px 32px;
+    border-radius: 30px;
+    background-color: rgba(210, 218, 237, 0.17);
+}
+textarea::placeholder{
+    color: rgb(156, 156, 156);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0%;
+}
+.careers__btn{
+    padding: 18px 32px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    border-radius: 31px;
+    width: 100%;
+    max-width: 119px;
+    border: none;
+        background: rgb(245, 138, 7);
+}

@@ -150,3 +150,26 @@ export const bloginnerproducts = [
         title2:"Transform Your Idea Into Reality with Ether a Leading Digital Agency"
     }
 ]
+
+export const careersproducts = [
+    {
+        id:1,
+        title:"Testing Engineer",
+        titlejob:"Job Discription",
+        textjob:"Remote, India , 4 to 5 Years Of Experience Department: Website Design 5 Positions Available.",
+        titlesalary:"Salary",
+        textsalary:"$30000 Per Anum ",
+        boxtitle1:"Details",
+        boxtitle2:"Requirement",
+        boxtitle3:"Responsibilities",
+        boxtext:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis aut omnis, odit vel modi quibusdam mollitia ad minima voluptatem nihil accusantium quidem earum atque voluptatum quis dolore perferendis laborum minus quisquam? Sunt, facere ipsam fugiat, ad reiciendis molestiae tempore libero ullam iusto officiis totam esse pariatur porro deleniti nihil magnam quam in, officia dolorem suscipit qui provident sequi omnis cupiditate. Soluta placeat corporis provident vel debitis culpa aliquam possimus, odio temporibus esse ut eum dolorem, fugiat facilis assumenda aliquid minus distinctio architecto omnis vitae labore. Eveniet officiis tempore ex fugit libero labore officia aliquam magni voluptas, reiciendis enim unde aut!",
+        title2:"Apply Now",
+        name1:"Firstname",
+        name2:"Lastname",
+        name3:"Email id",
+        name4:"Mobile Now",
+        btnname:"Submit",
+        
+    }
+   
+]
