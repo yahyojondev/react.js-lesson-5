@@ -183,6 +183,15 @@ export const  contactproducts =[
         title3:"Contact Us",
         text1:"DLF Cybercity, Bhubaneswar, India, &52050",
         text2:"020 7993 2905 hi@finsweet.com"
-        
+
+    }
+];
+
+export const privacyproduct =[
+    {
+        title:"Privacy Policy",
+        title2:"Who We Are and What This Policy Covers",
+        title3:"Information We Collect",
+        text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo est laoreet metus maximus, in ornare nulla mattis. Vestibulum at quam enim. Quisque efficitur et purus quis venenatis. Pellentesque volutpat nunc ac purus tincidunt, sit amet bibendum tortor ultricies. Integer vel est sem. Integer malesuada massa in magna vehicula, sit amet lacinia quam faucibus. Duis luctus consequat nisi, id consequat urna vehicula eget. Pellentesque id metus aliquam, venenatis nunc non, consectetur sem. Morbi tristique ac elit a ullamcorper."
     }
 ]

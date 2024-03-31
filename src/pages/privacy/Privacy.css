@@ -1,0 +1,14 @@
+.privacy__container{
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.privacy{
+    padding: 128px 0;
+}
+.privacy__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
