@@ -1,0 +1,35 @@
+.containerblog__inner{
+    width: 100%;
+    max-width: 800px;
+    padding:0 20px ;
+    margin: 0 auto;
+}
+.blog__inner{
+    padding: 128px 0;
+    
+}
+.blog__inner__hero__img{
+   width: 100%; 
+}
+.bloginner__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    gap: 32px;
+    padding-top: 120px;
+}
+.bloginner__title{
+    color: rgb(29, 52, 68);
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -3%;
+}
+.bloginner__text{
+    color: rgb(91, 91, 91);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0%;
+}

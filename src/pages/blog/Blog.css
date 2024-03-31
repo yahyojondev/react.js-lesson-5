@@ -1,0 +1,105 @@
+.blog{
+    padding: 128px 0px;
+    background-color: rgb(220, 234, 245);
+}
+.blog__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.blog__left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.blog__logo__text{
+color: rgb(57, 65, 73);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+.blog__title{
+    width: 100%;
+    padding-bottom: 20px;
+    max-width: 527px;
+    color: rgb(29, 52, 68);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -3%;
+}
+.blog__text{
+    width: 100%;
+    max-width: 520px;
+    color: rgb(91, 91, 91);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0%;
+}
+.blog__link{
+    color: rgb(245, 138, 7);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 106.5%;
+        letter-spacing: 0px;
+}
+
+.blog__cards{
+    padding: 128px 0px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.card{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px 20px 0px 0px;  
+}
+.card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 260px;
+    padding: 18px 32px;
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(237, 247, 255);
+}
+.card__title{
+    width: 100%;
+    max-width: 336px;
+    color: rgb(13, 19, 23);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -3%;
+}
+.card__text{
+    width: 100%;
+    max-width: 336px;
+    color: rgb(91, 91, 91);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.card__link{
+    color: rgb(245, 138, 7);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+}
+.card__img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+}
