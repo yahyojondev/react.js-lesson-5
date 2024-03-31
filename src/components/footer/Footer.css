@@ -1,0 +1,115 @@
+.footer{
+    padding: 80px 0px;
+    background: rgb(6, 50, 85);
+}
+ul{list-style: none;
+    object-fit: inherit;
+}
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer__item__list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__img{
+    width: 100%;
+    max-width: 120px;
+}
+.link__title{
+    width: 200px;
+    color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -3%;
+}
+.footer__title{
+    color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0%;
+}
+.footer__link{
+    color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+}
+.footer__input{
+    width: 100%;
+    outline: none;
+    max-width: 342px;
+    border-radius: 31px;
+    background: rgb(255, 255, 255);
+    padding: 18px 0px 18px 32px;
+    margin-bottom: 15px;
+}
+.footer__input::placeholder{
+    color: rgb(156, 156, 156);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0%;
+}
+.footer__btn{
+    width: 100%;
+    max-width: 156px;
+    border-radius: 31px;
+    background: rgb(245, 138, 7);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    padding: 17px 32px;
+}
+.footer__bottom__link{
+    color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+}
+.footer {
+    position: relative;
+    transition: 0.5s;
+
+}
+
+
+.footer:after {
+    border-radius: 0px 20px 2px 0px;
+    content: "";
+    position: absolute;
+    left: -100%;
+    height: 100px;
+    bottom: 0;
+        background: rgb(245, 138, 7);
+    transition: 0.5s;
+}
+.footer:hover:after {
+    left: 0;
+    width: 100%;
+    max-width: 50px;
+}

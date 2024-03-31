@@ -10,6 +10,7 @@
   margin: 0 auto;
 }
 ul{
+  object-fit: inherit;
   list-style: none;
 }
 a{

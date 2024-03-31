@@ -3,7 +3,7 @@ import { Routes,Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import { Routers } from './static/Router';
 import NotFound from './pages/notfound/NotFound';
-import Home from './pages/home/Home';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       }
       <Route path='*' element={<NotFound/>}/>
     </Routes>
+    <Footer/>
     </div>
   );
 }

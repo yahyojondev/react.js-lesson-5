@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import { homeproduct } from '../../static'
 import { homeourproduct } from '../../static'
+import { newsproduct } from '../../static'
 
 function Home() {
   let homeitem = homeproduct?.map(el=>(
@@ -24,6 +25,16 @@ function Home() {
       </div>
               
     ))
+    let newitems = newsproduct?.map(el=>(
+             <div className="new__card">
+                  <img src={el.img} alt="" className="new__img" />
+                  <div className="new__card__content">
+                    <h3 className="new__card__title">{el.title1}</h3>
+                    <p className="new__card__text">{el.text}</p>
+                    <a href="" className="new__card__link">{el.link}</a>
+                  </div>
+                 </div>
+    ))
 
   return (
     
@@ -42,6 +53,16 @@ function Home() {
         </div>
       </div>
 
+      </div>
+    </div>
+    <div className="new">
+      <div className="container">
+        <div  className="new__wrapper">
+            <h2 className="new__title">Latest Blog & News</h2>
+            <div className="new__cards">
+                 {newitems}
+            </div>
+         </div>
       </div>
     </div>
     </>

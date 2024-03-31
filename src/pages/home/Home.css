@@ -70,7 +70,7 @@ background-color: rgba(128, 79, 10, 0.4);
         max-width: 180px;
 }
 .our{
-    padding-top: 128px;  
+    padding: 128px 0px;  
 }
 .our__wrapper{
     display: flex;
@@ -82,9 +82,12 @@ background-color: rgba(128, 79, 10, 0.4);
     align-items: center;
     flex-wrap: wrap;
     row-gap: 40px;
-    column-gap: 70px;
+    column-gap: 80px;
 }
 .our__card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     padding: 32px 50px 32px 40px;
     width: 100%;
     max-width: 350px;
@@ -99,7 +102,82 @@ background-color: rgba(128, 79, 10, 0.4);
     line-height: 56px;
     letter-spacing: -3%;
 }
+.our__card__title{
+    color: rgb(13, 19, 23);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -3%;
+}
+.our__text{
+    color: rgb(57, 65, 73);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0px;
+}
+.our__link{
+    color: rgb(245, 138, 7);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 106.5%;
+        letter-spacing: 0px;
+        color: rgb(245, 138, 7);
+}
+.new{
+    padding: 96px 0px;
+    background-color: rgb(220, 234, 245);
+}
+.new__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.new__cards{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
 
-
+.new__card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 32px                                                                                                                                                                                                                                                                                                                                                                           ;
+}
+.new__img{
+    object-fit: cover;
+    width: 100%;    
+}
+.new__card__title{
+    color: rgb(13, 19, 23);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -3%;
+}
+.new__card__text{
+    color: rgb(91, 91, 91);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0%;
+}
+.new__card__link{
+    color: rgb(245, 138, 7);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 106.5%;
+        letter-spacing: 0px;
+        color: rgb(245, 138, 7);
+}
+.new__title{
+    color: rgb(13, 19, 23);
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: -3%;
+        text-transform: capitalize;
+}
 
 
