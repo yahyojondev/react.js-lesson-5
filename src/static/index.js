@@ -169,7 +169,20 @@ export const careersproducts = [
         name3:"Email id",
         name4:"Mobile Now",
         btnname:"Submit",
-        
+
     }
    
+]
+
+export const  contactproducts =[
+    {
+        id:1,
+        title:"Have a question ? Let’s get in touch with us.",
+        text:"Fill up the Form  and ou team will get back to within 24 hrs",
+        title2:"Location",
+        title3:"Contact Us",
+        text1:"DLF Cybercity, Bhubaneswar, India, &52050",
+        text2:"020 7993 2905 hi@finsweet.com"
+        
+    }
 ]

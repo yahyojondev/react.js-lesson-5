@@ -1,0 +1,87 @@
+.contact{
+    padding: 128px 0;
+}
+.contact__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact__texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact__title{
+    width: 100%;
+    max-width: 561px;
+    color: rgb(29, 52, 68);
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -3%;
+}
+.contact__text{
+    color: rgb(91, 91, 91);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0%;
+}
+.contact__title__one{
+    color: rgb(13, 19, 23);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -3%;
+}
+.contact__text__one{
+    width: 100%;
+    max-width: 270px;
+    color: rgb(91, 91, 91);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.contact__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+}
+.contact__forms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contact__input{
+    width: 1005;
+    max-width: 605px;
+    border-radius: 27px;
+    background: rgba(210, 218, 237, 0.17);
+}
+.contact__btn{
+    border-radius: 31px;
+    width: 100%;
+    border: none;
+    max-width: 119px;
+    padding: 18px 25px;
+        background: rgb(245, 138, 7);
+        color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 106.5%;
+            letter-spacing: 0px;
+            text-transform: capitalize;
+}
+.contact__input::placeholder{
+    color: rgb(156, 156, 156);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
