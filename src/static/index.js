@@ -19,7 +19,7 @@ export const homeourproduct = [
    
     {
         id:1,
-        title1:"Full Stack Developer",
+        title1:"Full Stack Developer It",
         text:"Bengaluru · Full Time ",
         link:"Apply Now"
 
